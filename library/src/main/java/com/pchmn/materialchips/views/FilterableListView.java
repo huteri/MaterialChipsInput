@@ -155,4 +155,8 @@ public class FilterableListView extends RelativeLayout {
         startAnimation(anim);
         setVisibility(GONE);
     }
+
+    public void addAdditionalChips(List<? extends ChipInterface> list) {
+        mAdapter.addAdditionalChips(list);
+    }
 }
